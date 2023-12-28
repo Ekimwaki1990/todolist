@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: bebas neue;
+}
+
+main {
+    width: 500px;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.header {
+    width: 500px;
+    border-radius: 5px 5px 0 0;
+    margin-top: 1px;
+    height: 200px;
+    background: linear-gradient( 90deg, rgba(73, 222, 146, 1) 23%, rgba(79, 95, 212, 1) 44%, rgba(126, 31, 50, 1) 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#input_section {
+    width: 300px;
+    border: none;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#input-area {
+    width: 250px;
+    margin-left: -160px;
+    font-family: sans-serif;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: rgb(63, 31, 31);
+}
+
+.output-section {
+    width: 500px;
+    height: 100vh;
+    background: linear-gradient( 90deg, rgba(9, 136, 136, 1) 0%, rgba(0, 212, 255, 1) 53%);
+    margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+    row-gap: 10px;
+}
+
+.todo-item-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.delete-btn,
+.edit-btn {
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.edit-btn i {
+    font-size: 18px;
+}
+
+.delete-btn i {
+    font-size: 18px;
+}
+
+#add-icon {
+    font-size: 38px;
+    width: 35px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#add-icon:hover {
+    opacity: 0.6;
+    transition: 0.9ms;
+}
+
+#add-icon:active {
+    opacity: 0.9;
+}
+
+#todo-text {
+    width: 250px;
+    cursor: pointer;
+    height: 30px;
+    background-color: white;
+    font-size: 17px;
+    font-family: arial;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 2px;
+}
